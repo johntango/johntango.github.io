@@ -1,0 +1,896 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- tab icon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <title>John R Williams</title>
+  </head>
+
+  <body>
+    <abel-navbar>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#/home">
+            <img
+              src="assets/images/logo.svg"
+              height="30"
+              class="d-inline-block align-top"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#/home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/bio">Bio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/research">Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/teaching">Teaching</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/speaking">Speaking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/podcast">Podcast</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </abel-navbar>
+    <div id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <ul
+              class="nav flex-column sticky-top"
+              id="researchNav"
+              style="position: -webkit-sticky; position: sticky; top: 60px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="#/bio/bioLong"> Bio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/bio/bioShort"> Patent Work </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/teaching/photos"> Photos </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-9">
+            <section id="teaching">
+              <div class="sectionHead">
+                <h1>John R Williams Courses</h1>
+                <img
+                  src="./assets/img/photos/johnwilliamsFace.png"
+                  alt="twbs"
+                  width="100"
+                  height="100"
+                  class="rounded-circle flex-shrink-0"
+                />
+              </div>
+              <a href="http://student.mit.edu/catalog/m1a.html"
+                >MIT On Campus Courses</a
+              >
+              <div class="list-group">
+                <a
+                  href="http://student.mit.edu/catalog/m1a.html"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/logo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">1.00 Undergraduate</h6>
+                      <p class="mb-0 opacity-75">
+                        Engineering Computation and Data Science
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">14 weeks</small>
+                  </div>
+                </a>
+
+                <a
+                  href="http://student.mit.edu/catalog/m1a.html"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/logo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">1.001 Graduate</h6>
+                      <p class="mb-0 opacity-75">
+                        Engineering Computation and Data Science
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">14 weeks</small>
+                  </div>
+                </a>
+
+                <a
+                  href="http://student.mit.edu/catalog/m1a.html"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/logo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">1.125 Graduate</h6>
+                      <p class="mb-0 opacity-75">
+                        Architecting and Engineering Software Systems
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">14 weeks</small>
+                  </div>
+                </a>
+              </div>
+
+              <a
+                href="https://professional.mit.edu/programs/faculty-profiles/john-r-williams"
+                >MIT Online Professional Education and xPRO Courses</a
+              >
+
+              <a
+                href="https://executive-ed.xpro.mit.edu/professional-certificate-data-engineering"
+                class="list-group-item d-flex gap-3 py-3"
+                aria-current="true"
+              >
+                <img
+                  src="./assets/images/MITxPROLogo.svg"
+                  alt="twbs"
+                  width="140"
+                  height="40"
+                  class="rounded-circle flex-shrink-0"
+                />
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Data Engineering</h6>
+                    <p class="mb-0 opacity-75">
+                      Professional Certificate in Data Engineering
+                    </p>
+                  </div>
+                  <small class="opacity-50 text-nowrap">24 weeks</small>
+                </div>
+              </a>
+              <div class="list-group">
+                <a
+                  href="https://executive-ed.xpro.mit.edu/professional-certificate-coding?utm_source=Google&utm_medium=c&utm_term=%2Bcoding%20%2Bcertificate&utm_location=9001863&utm_campaign=B-365D_US_GG_SE_PCC_P2_male&utm_content=Certificate&gclid=Cj0KCQjwwNWKBhDAARIsAJ8HkhfxUjGodlboXdZCJRye0YlGxyU9M-VwmiuGhUPCLDw04gvpfV0eRBcaAovJEALw_wcB"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITxPROLogo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Coding Fullstack Bootcamp</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Coding: Fulltime
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">16 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://executive-ed.xpro.mit.edu/professional-certificate-coding-womens-cohort?utm_source=Google&utm_medium=c&utm_term=%2Bcoding%20%2Bcourse%20%2Bfor%20%2Bwomen&utm_location=9001863&utm_campaign=B-13804_US_GG_SE_PCCW_Bootcamp_female&utm_content=Coding&gclid=Cj0KCQjwwNWKBhDAARIsAJ8HkhervvYckVZcxtAN_Q5RDoUgGDUogmqZgmZEwzAF0T-6pJipKR6zVqAaAi3_EALw_wcB"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITxPROLogo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Coding in JavaScript: Women's Cohort</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Coding: Women's Cohort
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap"
+                      >32 weeks 20 hours/week</small
+                    >
+                  </div>
+                </a>
+                <a
+                  href="https://executive-ed.xpro.mit.edu/web-development-javascript?utm_medium=EmWebsite&utm_content=University&utm_term=MIT-xPRO&utm_campaign=direct_EmWebsite_University_MIT-xPRO"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITxPROLogo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Web Development in JavaScript</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Web Development in
+                        JavaScript
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">10 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://executive-ed.xpro.mit.edu/front-end-development-react?utm_medium=EmWebsite&utm_content=University&utm_term=MIT-xPRO&utm_campaign=organic_EmWebsite_University_MIT-xPRO"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="assets/images/MITxPROLogo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Front End Development</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Front End Development with
+                        React
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">11 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://executive-ed.xpro.mit.edu/back-end-development?utm_medium=EmWebsite&utm_content=University&utm_term=MIT-xPRO&utm_campaign=direct_EmWebsite_University_MIT-xPRO"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="assets/images/MITxPROLogo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Back-End Development</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Back-End Development
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">11 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://executive-ed.xpro.mit.edu/professional-certificate-coding-full-time?utm_medium=EmWebsite&utm_content=University&utm_term=MIT-xPRO&utm_campaign=direct_EmWebsite_University_MIT-xPRO"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITxPROLogo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Data Engineering Bootcamp</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Data Engineering
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap"
+                      >16 weeks 40 hours/week</small
+                    >
+                  </div>
+                </a>
+                <a
+                  href="https://executive-ed.xpro.mit.edu/professional-certificate-coding"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="assets/images/MITxPROLogo.svg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Coding Full Stack</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Coding: Full Stack
+                        Development with MERN
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap"
+                      >32 weeks 20 hours/week</small
+                    >
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/cloud-devops-continuous-transformation"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Cloud & DevOps: Continuous Transformation
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Cloud & DevOps: Continuous
+                        Transformation
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/digital-transformation-and-applied-devops"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Digital Transformation and Applied DevOps
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate Digital Transformation and
+                        Applied DevOps
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/digital-transformation-ai-and-iot-cloud-blockchain-and-cybersecurity"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Digital Transformation: From AI and IoT to Cloud,
+                        Blockchain, and Cybersecurity
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate Digital Transformation: From AI
+                        and IoT to Cloud, Blockchain, and Cybersecurity
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/applied-blockchain"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Applied Blockchain</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Appplied Blockchain
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/applied-cybersecurity"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">Applied Cyber-Security</h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Appplied Cyber-Security
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/blockchain-technologie-de-rupture-french"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Applied Blockchain Technologie de Rupture (French)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Blockchain : Technologie de
+                        Rupture (French)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/blockchain-disrupcao-tecnologica-portuguese"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Applied Blockchain: Disrupção Tecnológica (Portuguese)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Blockchain : Disrupção
+                        Tecnológica (Portuguese)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/blockchain-disrupcion-tecnologica-spanish"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Applied Blockchain: Disrupción Tecnológica (Spanish)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Blockchain : Disrupción
+                        Tecnológica (Spanish)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/blockchain-tecnologia-dirompente-italian"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Applied Blockchain: Tecnologia Dirompente (Italian)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Blockchain : Tecnologia
+                        Dirompente (Italian)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/cloud-devops-transformacao-continua-portuguese"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Cloud & DevOps: Transformação contínua (Portuguese)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Cloud & DevOps:
+                        Transformação contínua (Portuguese)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/cloud-devops-transformacion-continua-spanish"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Cloud & DevOps: Transformación Continua (Spanish)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Cloud & DevOps:
+                        Transformación Continua (Spanish)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/cloud-devops-transformation-continue-french"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Cloud & DevOps: Transformation Continue (French)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Cloud & DevOps:
+                        Transformation Continue (French)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/cloud-devops-trasformazione-continua-italian"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Cloud & DevOps: Trasformazione Continua (Italian)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate in Cloud & DevOps:
+                        Trasformazione Continua (Italian)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+
+                <a
+                  href="https://professional.mit.edu/course-catalog/digital-transformation-tecnologie-e-applicazioni-pratiche-italian"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Digital Transformation: Tecnologie e applicazioni
+                        pratiche (Italian)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate Digital Transformation:
+                        Tecnologie e applicazioni pratiche (Italian)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/tranformacao-digital-tecnologias-e-suas-aplicacoes-praticas-portuguese"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Tranformação Digital: Tecnologias e suas aplicações
+                        práticas (Portuguese)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate Tranformação Digital:
+                        Tecnologias e suas aplicações práticas (Portuguese)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+                <a
+                  href="https://professional.mit.edu/course-catalog/transformacion-digital-tecnologias-y-sus-aplicaciones-practicas-spanish"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Transformación Digital: Tecnologías y sus aplicaciones
+                        prácticas (Spanish)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate Transformación Digital:
+                        Tecnologías y sus aplicaciones prácticas (Spanish)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+
+                <a
+                  href="https://professional.mit.edu/course-catalog/transformation-numerique-les-technologies-et-leurs-applications-pratiques-french"
+                  class="list-group-item d-flex gap-3 py-3"
+                  aria-current="true"
+                >
+                  <img
+                    src="./assets/images/MITPELogo.jpg"
+                    alt="twbs"
+                    width="140"
+                    height="40"
+                    class="rounded-circle flex-shrink-0"
+                  />
+                  <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                      <h6 class="mb-0">
+                        Transformation Numérique: Les Technologies et leurs
+                        Applications Pratiques (French)
+                      </h6>
+                      <p class="mb-0 opacity-75">
+                        Professional Certificate TTransformation Numérique: Les
+                        Technologies et leurs Applications Pratiques (French)
+                      </p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">6 weeks</small>
+                  </div>
+                </a>
+              </div>
+            </section>
+
+            <section id="photos">
+              <style>
+                .lead {
+                  margin-top: 20px;
+                  margin-bottom: 20px;
+                }
+
+                .img-thumbnail {
+                  margin-right: 5px;
+                  margin-bottom: 5px;
+                }
+              </style>
+
+              <div class="sectionHead">
+                <h1>Photos</h1>
+              </div>
+
+              <p class="lead">Cyber Security Course</p>
+
+              <a
+                href="assets/img/photos/JohnAbelCyberSec.jpg"
+                class="thumbnail"
+              >
+                <img
+                  src="assets/img/photos/JohnAbelCyberSec.png"
+                  width="400"
+                  alt=""
+                  class="img-thumbnail"
+                />
+              </a>
+              <p class="lead">Visiting Ant Financial China</p>
+              <a href="assets/img/photos/antFinancial.jpg" class="thumbnail">
+                <img
+                  src="assets/img/photos/antFinancial.jpg"
+                  width="400"
+                  alt=""
+                  class="img-thumbnail"
+                />
+              </a>
+
+              <p class="lead">At Home</p>
+
+              <a href="assets/img/photos/JohnTango03.png" class="thumbnail">
+                <img
+                  src="assets/img/photos/JohnTango03.png"
+                  width="400"
+                  alt=""
+                  class="img-thumbnail"
+                />
+              </a>
+
+              <p class="lead">Professional Education</p>
+
+              <a href="assets/img/photos/ProfEdJohn.png" class="thumbnail">
+                <img
+                  src="assets/img/photos/ProfEdJohn.png"
+                  width="400"
+                  alt=""
+                  class="img-thumbnail"
+                />
+              </a>
+
+              <p class="lead">SPE Talk in KSA</p>
+
+              <a href="assets/img/photos/speTalkKSA.jpg" class="thumbnail">
+                <img
+                  src="assets/img/photos/speTalkKSA.jpg"
+                  width="400"
+                  alt=""
+                  class="img-thumbnail"
+                />
+              </a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/router.js"></script>
+    <script src="assets/js/components.js"></script>
+    <script type="module" src="assets/docs/bio.js"></script>
+  </body>
+</html>

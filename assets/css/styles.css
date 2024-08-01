@@ -1,0 +1,43 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }  
+}
+
+
+body {
+    padding-top: 5rem;
+}
+
+.sectionHead{
+    padding-top: 60px;
+    border-bottom: 1px solid #eee;  
+    margin-bottom: 20px;  
+}
+
+a {
+    text-decoration: none;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.videoContainer {
+    margin:0px auto;
+}
+
+.videoVendor {
+    padding: 2%;
+    margin-bottom: 2em;
+}
