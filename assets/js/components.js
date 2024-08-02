@@ -44,6 +44,8 @@ class NavBar extends HTMLElement {
 
 // Define the new element
 customElements.define('abel-navbar', NavBar);
+// Define the new element
+customElements.define('abel-card', Card);
 
 
 

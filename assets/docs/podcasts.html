@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Abel Sanchez, John R. Williams" />
+    <title>KogSpace</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ---------------------------- -->
+    <!--     Navbar and svg icons     -->
+    <!-- ---------------------------- -->
+    <abel-svgicons></abel-svgicons>
+    <abel-navbar></abel-navbar>
+
+    <!-- -------------------- -->
+    <!--     Page content     -->
+    <!-- -------------------- -->
+
+    <main class="container">
+      <div class="bg-body-secondary p-5 rounded">
+        <h1 class="display-3">Welcome to KogSpace</h1>
+        <p class="lead">
+          Welcome to Daily Intelligence. We explore AI technology, data, and
+          strategy, focusing on how AI and generative AI are transforming modern
+          organizations. Posts highlight how these technologies drive
+          innovation, boost efficiency, and create competitive advantages.
+          Whether you’re a business leader, technologist, or curious about AI's
+          future, you'll find insights to navigate the evolving tech landscape.
+        </p>
+      </div>
+
+      <h1 class="display-6 p-2">Sample Content</h1>
+
+      <abel-card
+        title="Unlocking AI's Potential: It's All About the Data"
+        description="How Scale AI and Proprietary Data are Shaping the Future of Large Language Models"
+        img="assets/img/big_data_01.jpeg"
+        newsletter="https://abelsan.substack.com/p/unlocking-ais-potential-its-all-about"
+        podcast="https://podcasters.spotify.com/pod/show/abelsan/episodes/Unlocking-AIs-Potential-Its-All-About-the-Data-e2mkke9"
+        video="https://www.youtube.com/watch?v=rzDgk9qZ-xQ"
+      >
+      </abel-card>
+      <abel-card
+        title="Law Dragging Down Generative AI?"
+        description="The US court cases may impact all Generative AI companies"
+        img="assets/img/Law_and_AI.png"
+        newsletter="https://open.substack.com/pub/tango556/p/generativeai-law-cases-a-drag?r=kfqbc&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true"
+        podcast="https://podcasters.spotify.com/pod/show/johntango/episodes/Law-dragging-on-Generative-AI-e2mm2g2"
+        video="https://youtu.be/U1cLT4JDwVs?si=KxBNCU65IMjTUvHv"
+      >
+      </abel-card>
+      <abel-card
+        title="Explicit Deepfake Attack Double Edge Sword?"
+        description="Google attack on explicit deepfakes attempts a delicate balance "
+        img="assets/img/DeepSword.png"
+        newsletter="https://tango556.substack.com/publish/post/147291674"
+        podcast="https://podcasters.spotify.com/pod/show/johntango/episodes/Explicit-Deepfake-Double-Edge-Sword-e2mopf8"
+        video="https://youtu.be/Pia_kJLCzD4"
+      >
+      </abel-card>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local JS files -->
+    <script src="assets/js/components.js"></script>
+  </body>
+</html>
