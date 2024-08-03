@@ -1,189 +1,214 @@
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- tab icon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/vnd.microsoft.icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet" />
     <title>John R Williams</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- ---------------------------- -->
+    <!--     Navbar and svg icons     -->
+    <!-- ---------------------------- -->
+    <abel-svgicons></abel-svgicons>
+
     <abel-navbar>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#/home">
-                    <img src="assets/images/logo.svg" height="30" class="d-inline-block align-top" alt=""
-                        loading="lazy">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#/home">
+            <img
+              src="assets/images/logo.svg"
+              height="30"
+              class="d-inline-block align-top"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto mb-2 mb-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="#/home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#/bio">Bio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#/research">Research</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#/teaching">Teaching</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#/speaking">Speaking</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#/podcast">Podcast</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#/home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/bio">Bio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/research">Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/teaching">Teaching</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/speaking">Speaking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#/podcast">Podcast</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </abel-navbar>
     <div id="content">
-        <style>
-            .bd-placeholder-img {
-                font-size: 1.125rem;
-                text-anchor: middle;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-            }
+      <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
 
-            @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                    font-size: 3.5rem;
-                }
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
             }
+        }
 
-            .container {
-                max-width: 700px;
-            }
+        .container {
+            max-width: 700px;
+        }
 
-            .pricing-header {
-                max-width: 700px;
-            }
+        .pricing-header {
+            max-width: 700px;
+        }
 
-            .card-img {
-                filter: brightness(65%);
-            }
+        .card-img {
+            filter: brightness(65%);
+        }
 
-            .card-img-overlay:hover {
-                background-color: rgba(0, 0, 0, 0.65);
-                ;
-            }
-        </style>
+        .card-img-overlay:hover {
+            background-color: rgba(0, 0, 0, 0.65);
+            ;
+        }
+      </style>
 
-        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto">
-            <h1 class="display-4">Dr. John R Williams</h1>
-            <p class="lead">Life is a long distance race <cite title="Source Title" class="text-muted">-
-                    PhD Colleague Brian Duncan</cite></p>
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+        <h1 class="display-4">Dr. John R Williams</h1>
+        <p class="lead">
+          Life is a long distance race
+          <cite title="Source Title" class="text-muted"
+            >- PhD Colleague Brian Duncan</cite
+          >
+        </p>
+      </div>
+
+      <div class="container">
+        <!-- first row -->
+        <div class="row row-cols-2 row-cols-md-2 mb-2">
+          <div class="col">
+            <a href="/#/bio">
+              <div class="card bg-dark text-white" style="margin-bottom:10px;">
+                <img class="card-img" src="bio.jpg" alt="Card image" />
+                <div class="card-img-overlay">
+                  <h1 class="card-title">Bio</h1>
+                  <p class="card-text">All about John</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="/#/research">
+              <div class="card bg-dark text-white">
+                <img
+                  class="card-img"
+                  src="key.jpg"
+                  id="homeKey"
+                  alt="Card image"
+                />
+                <div class="card-img-overlay">
+                  <h1 class="card-title">Research</h1>
+                  <p class="card-text">Applied computation</p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
 
-        <div class="container">
-
-
-            <!-- first row -->
-            <div class="row row-cols-2 row-cols-md-2 mb-2">
-
-                <div class="col">
-                    <a href="/#/bio">
-                        <div class="card bg-dark text-white" style="margin-bottom:10px;">
-                            <img class="card-img" src="bio.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h1 class="card-title">Bio</h1>
-                                <p class="card-text">All about John</p>
-                            </div>
-                        </div>
-                    </a>
+        <!-- second row -->
+        <div class="row row-cols-2 row-cols-md-2 mb-2">
+          <div class="col">
+            <a href="/#/teaching">
+              <div class="card bg-dark text-white">
+                <img class="card-img" src="teach.jpg" alt="Card image" />
+                <div class="card-img-overlay">
+                  <h1 class="card-title">Teaching</h1>
+                  <p class="card-text">Courses John teaches.</p>
                 </div>
+              </div>
+            </a>
+          </div>
 
-                <div class="col">
-                    <a href="/#/research">
-                        <div class="card bg-dark text-white">
-                            <img class="card-img" src="key.jpg" id="homeKey" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h1 class="card-title ">Research</h1>
-                                <p class="card-text">Applied computation</p>
-                            </div>
-                        </div>
-                    </a>
+          <div class="col">
+            <a href="/#/speaking">
+              <div class="card bg-dark text-white">
+                <img class="card-img" src="lecture.jpg" alt="Card image" />
+                <div class="card-img-overlay">
+                  <h1 class="card-title">Speaking</h1>
+                  <p class="card-text">Some of John's talks.</p>
                 </div>
-
-            </div>
-
-
-            <!-- second row -->
-            <div class="row row-cols-2 row-cols-md-2 mb-2">
-
-                <div class="col">
-                    <a href="/#/teaching">
-                        <div class="card bg-dark text-white">
-                            <img class="card-img" src="teach.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h1 class="card-title">Teaching</h1>
-                                <p class="card-text">Courses John teaches.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col">
-                    <a href="/#/speaking">
-                        <div class="card bg-dark text-white">
-                            <img class="card-img" src="lecture.jpg" alt="Card image">
-                            <div class="card-img-overlay">
-                                <h1 class="card-title">Speaking</h1>
-                                <p class="card-text">Some of John's talks.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
-            <h1>
-                <a href="http://www.linkedin.com/in/johntango"><i class="bi bi-linkedin"></i></a>
-                <a href="http://twitter.com/johntango"><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-mic-fill"></i></a>
-                <a href="mailto:jrw@mit.edu"><i class="bi bi-envelope-fill"></i></a>
-            </h1>
-
-
+              </div>
+            </a>
+          </div>
         </div>
+
+        <h1>
+          <a href="http://www.linkedin.com/in/johntango"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href="http://twitter.com/johntango"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href=""><i class="bi bi-mic-fill"></i></a>
+          <a href="mailto:jrw@mit.edu"><i class="bi bi-envelope-fill"></i></a>
+        </h1>
+      </div>
     </div>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/router.js"></script>
     <script src="assets/js/components.js"></script>
     <script type="module" src="assets/docs/bio.js"></script>
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
