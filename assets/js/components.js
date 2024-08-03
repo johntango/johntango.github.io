@@ -16,31 +16,30 @@ class NavBar extends HTMLElement {
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-      
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-               <li class="nav-item active">
-                <a class="nav-link" href="#bio">Bio</a>
-              </li>
-               <li class="nav-item active">
-                <a class="nav-link" href="/#research">Research</a>
-              </li>
-               <li class="nav-item active">
-                <a class="nav-link" href="/#teaching">Teaching</a>
-              </li>
-               <li class="nav-item active">
-                <a class="nav-link" href="/#speaking">Speaking</a>
-              </li>
-               <li class="nav-item active">
-                <a class="nav-link" href="/#podcast">Podcast</a>
-              </li>
-              <li class="nav-item">                  
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
+              <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/bio">Bio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/research">Research</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/teaching">Teaching</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/speaking">Speaking</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/podcast">Podcast</a>
+                </li>
+                <li class="nav-item">                  
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
           </div>
         </div>
       </nav>    
