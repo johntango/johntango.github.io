@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
     this.innerHTML = `
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">John R Williams</a>
+          <a class="navbar-brand" href="#">KogSpace</a>
           <!-- 
           <a class="navbar-brand" href="#/home">
             <img src="assets/img/logo.svg" height="30" class="d-inline-block align-top" alt="" loading="lazy">
@@ -16,30 +16,16 @@ class NavBar extends HTMLElement {
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+      
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-              <ul class="navbar-nav mr-auto mb-2 mb-md-0">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#/bio">Bio</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#/research">Research</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#/teaching">Teaching</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#/speaking">Speaking</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#/podcast">Podcast</a>
-                </li>
-                <li class="nav-item">                  
-                  <a class="nav-link" href="#">About</a>
-                </li>
-              </ul>
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">                  
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>    
@@ -141,10 +127,10 @@ class Card extends HTMLElement {
 
     // set image
     if (!img) {
-        img = `<img src="assets/img/no_image.jpeg" class="img-fluid rounded-start w-100 h-100" alt="..." style="object-fit: cover;">`
+        img = `<img src="assets/img/no_image.jpeg" class="rounded-start" alt="...">`;
     }
     else{
-        img = `<img src="${img}" class="img-fluid rounded-start w-100 h-100" alt="..." style="object-fit: cover;">`
+        img = `<img src="${img}" class="rounded-start" alt="...">`;
     }
 
     // set newsletter
@@ -182,8 +168,10 @@ class Card extends HTMLElement {
     this.innerHTML = `
         <div class="card mb-3 w-100">
           <div class="row g-0">
-            <div class="col-3">
-              ${img}
+            <div class="col-3 d-flex align-items-stretch">
+              <div class="img-container w-100">
+                ${img}
+              </div>
             </div>
             <div class="col-9 d-flex align-items-center">
               <div class="card-body">
