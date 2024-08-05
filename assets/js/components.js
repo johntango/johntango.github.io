@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
     this.innerHTML = `
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">KogSpace</a>
+          <a class="navbar-brand" href="#">John R Williams</a>
           <!-- 
           <a class="navbar-brand" href="#/home">
             <img src="assets/img/logo.svg" height="30" class="d-inline-block align-top" alt="" loading="lazy">
@@ -19,13 +19,28 @@ class NavBar extends HTMLElement {
       
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto mb-2 mb-md-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">                  
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/bio">Bio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/research">Research</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/teaching">Teaching</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/speaking">Speaking</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#/podcast">Podcast</a>
+                </li>
+                <li class="nav-item">                  
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
           </div>
         </div>
       </nav>    
