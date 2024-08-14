@@ -1,5 +1,5 @@
 var bioLong = `
-  <div class="sectionHead">
+  <div class="container bg-dark">
       <h1>Long Bio</h1>
   </div>               
   <p>
@@ -28,7 +28,7 @@ He organized the first Cyber-Physical Security Conference in the UK (2011) and a
 `;
 
 var bioShort = `
-<div class="sectionHead">
+<div class="container bg-dark">
     <h1>Short Bio</h1>
 </div>
 
