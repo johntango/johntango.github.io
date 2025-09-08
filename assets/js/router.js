@@ -11,6 +11,7 @@ window.onload = function () {
         '#/teaching': 'assets/docs/teaching.html',
         '#/speaking': 'assets/docs/speaking.html',
         '#/podcast': 'assets/docs/podcast.html',
+        '#/books': 'assets/docs/books.html',
         '#/blog': 'assets/docs/blog.html'
     };
 
