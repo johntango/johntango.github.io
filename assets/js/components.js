@@ -32,7 +32,7 @@ class NavBar extends HTMLElement {
                   <a class="nav-link" href="#/teaching">Teaching</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#/speaking">Speaking</a>
+                  <a class="nav-link" href="#/speaking">Board & C-Suite</a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="#/podcast">Podcast</a>
